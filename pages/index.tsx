@@ -13,6 +13,7 @@ export default function Home() {
       <main className={styles.main}>
         <h3>Broadcasting examples</h3>
         <Link href="/post-message" >Post message</Link>
+        <Link href="/broadcast" >Broadcast message</Link>
       </main>
 
       <footer className={styles.footer}>

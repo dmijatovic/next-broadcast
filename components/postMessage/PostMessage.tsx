@@ -41,7 +41,7 @@ export default function PostMessage() {
 
   function createPopup(){
     console.log("Create popup")
-    const win = createWindow("/code/article","code")
+    const win = createWindow("/code/pm_article","code")
     if (win){
       listenForClose(win)
       setPopup(win)
